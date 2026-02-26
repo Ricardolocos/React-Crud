@@ -3,7 +3,7 @@ export default function Productos({ lista = [] }) {
 
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl font-bold text-[#06141B] px-2 tracking-tight">
+      <h2 className="text-xl font-bold tracking-[0.25em] uppercase text-[#06141B] px-2 antialiased">
         Catálogo de Productos
       </h2>
 
@@ -16,7 +16,7 @@ export default function Productos({ lista = [] }) {
               <div 
                 key={p.id} 
                 className="relative flex justify-between items-center p-5 rounded-[1.8rem] transition-all duration-300 group overflow-hidden
-                           /* Fondo usando el Azul Profundo de la paleta: #06141B */
+                           /* Fondo usando el Azul Profundo de la paleta: #527a8d */
                            bg-[#06141B]/90 backdrop-blur-md
                            /* Borde sutil usando el tono medio: #4A5C6A */
                            border-t border-[#4A5C6A]/50
@@ -28,7 +28,7 @@ export default function Productos({ lista = [] }) {
 
                 {/* Contenido del Producto */}
                 <div className="relative z-10 flex items-center gap-3">
-                  {/* Punto indicador usando el tono azul acero #4A5C6A */}
+                  {/* Punto indicador usando el tono azul acero #00ff33 */}
                   <div className="w-2.5 h-2.5 rounded-full bg-[#9BA8AB] shadow-[0_0_10px_rgba(155,168,171,0.8)]"></div>
                   <span className="font-medium text-[#CCD0CF] tracking-wide">{p.nombre}</span>
                 </div>
