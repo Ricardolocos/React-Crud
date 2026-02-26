@@ -4,7 +4,7 @@ export default function Productos({ lista = [] }) {
   return (
     <div className="space-y-6">
       <h2 className="text-xl font-bold tracking-[0.25em] uppercase text-[#06141B] px-2 antialiased">
-        Catálogo de Productos
+        Catálogo
       </h2>
 
       {/* Contenedor Principal: Cristal Gélido (usando #CCD0CF con transparencia) */}
